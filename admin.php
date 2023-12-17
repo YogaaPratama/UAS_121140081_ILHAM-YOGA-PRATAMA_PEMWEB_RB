@@ -1,7 +1,6 @@
 <?php
 include 'connect.php';
 
-// Redirect ke halaman utama jika admin belum login
 if (!isset($_SESSION['admin'])) {
     header('location:index.php');
 }

@@ -3,7 +3,7 @@ include 'connect.php';
 
 if (isset($_SESSION['admin'])) {
     header('location:admin.php');
-    exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna.
+    exit(); 
 }
 ?>
 
