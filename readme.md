@@ -64,7 +64,7 @@ Web ini juga sudah terdapat  `4 elemen input (text, email, radio, date dan texta
                 </td>
             </tr>
 ```
-![alt text](?https://github.com/YogaaPratama/UAS_121140081_PEMWEB_RB/blob/main/gambar/tabel.png)
+![alt text](https://github.com/YogaaPratama/UAS_121140081_PEMWEB_RB/blob/main/gambar/tabel.png)
 
 
 bisa dilihat pada gambar tersebut dalam website yang telah dibuat telah berhasil menampilkan data dari server ke dalam sebuah halaman web menggunakan tag `table`. Serta dilengkapi dengan fitur Delete dan Edit. berikut kodenya : 
