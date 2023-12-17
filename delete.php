@@ -4,7 +4,7 @@ include 'connect.php';
 if (isset($_GET['id'])) {
     $id = mysqli_real_escape_string($connect, $_GET['id']);
     
-    $query = "DELETE FROM dataTamu WHERE id = '$id'";
+    $query = "DELETE FROM datatamu WHERE id = '$id'";
     $result = mysqli_query($connect, $query);
 
     if ($result) {
