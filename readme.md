@@ -1,7 +1,7 @@
 # UAS Pemrograman Web
 ## ILHAM YOGA PRATAMA, 121140081, RB
 
-Website : https://121140081-ilham-yoga-pratama-uas-pemweb.000webhostapp.com/ 
+Website : https://pendataan-tamu-121140081-ilhamyogapratama.000webhostapp.com/index.php 
 
 Username : Admin
 
@@ -149,7 +149,7 @@ Dibuat enam file PHP utama untuk menangani proses data antara website dan databa
 Query konfigurasi database:
 
 ```sql
-create database if not exists id21683226_uas_pemweb;
+create database if not exists id2168345_uas_pemweb;
 
 CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
