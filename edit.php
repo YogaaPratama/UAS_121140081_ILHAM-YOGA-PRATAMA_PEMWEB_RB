@@ -5,7 +5,7 @@ include 'connect.php';
 if (isset($_GET['id'])) {
     $id = mysqli_real_escape_string($connect, $_GET['id']);
     
-    $dataTamu = mysqli_query($connect, "SELECT * FROM dataTamu WHERE id = '$id'");
+    $dataTamu = mysqli_query($connect, "SELECT * FROM datatamu WHERE id = '$id'");
     $data = mysqli_fetch_array($dataTamu);
 
     if (isset($_POST['submit'])) {
@@ -16,7 +16,7 @@ if (isset($_GET['id'])) {
         $tanggal_lahir = mysqli_real_escape_string($connect, $_POST['tanggal_lahir']);
         $alamat = mysqli_real_escape_string($connect, $_POST['alamat']);
 
-        $updateQuery = "UPDATE dataTamu SET nama='$nama', jenis_kelamin='$jenis_kelamin', email='$email', agama='$agama', tgl_lahir='$tanggal_lahir', alamat='$alamat' WHERE id='$id'";
+        $updateQuery = "UPDATE datatamu SET nama='$nama', jenis_kelamin='$jenis_kelamin', email='$email', agama='$agama', tgl_lahir='$tanggal_lahir', alamat='$alamat' WHERE id='$id'";
         $updateResult = mysqli_query($connect, $updateQuery);
 
         if ($updateResult) {
