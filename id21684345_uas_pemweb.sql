@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Waktu pembuatan: 17 Des 2023 pada 12.09
+-- Waktu pembuatan: 17 Des 2023 pada 16.32
 -- Versi server: 10.5.20-MariaDB
 -- Versi PHP: 7.3.33
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id21683226_uas_pemweb`
+-- Database: `id21684345_uas_pemweb`
 --
 
 -- --------------------------------------------------------
