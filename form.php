@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "<script>alert('Harap lengkapi semua field yang ada. Silahkan isi ulang inputan');</script>";
     } else {
         include 'connect.php';
-        $tambah = mysqli_query($connect, "INSERT INTO dataTamu (id, nama, jenis_kelamin, email, agama, tgl_lahir, alamat) VALUES ('', '$nama', '$jenis_kelamin', '$email', '$agama', '$tanggal_lahir', '$alamat')");
+        $tambah = mysqli_query($connect, "INSERT INTO datatamu (id, nama, jenis_kelamin, email, agama, tgl_lahir, alamat) VALUES ('', '$nama', '$jenis_kelamin', '$email', '$agama', '$tanggal_lahir', '$alamat')");
         echo "<script>alert('Tambah data berhasil'); document.location = '?page=tabel';</script>";
     }
 }
