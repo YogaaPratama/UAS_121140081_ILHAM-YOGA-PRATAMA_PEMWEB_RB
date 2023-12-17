@@ -14,7 +14,7 @@
 
         <?php
         // Mengambil data tamu dari database
-        $daftar_tanggapan = mysqli_query($connect, "SELECT * FROM dataTamu ORDER BY id ASC");
+        $daftar_tanggapan = mysqli_query($connect, "SELECT * FROM datatamu ORDER BY id ASC");
 
         // Menampilkan data tamu dalam tabel
         while ($data = mysqli_fetch_array($daftar_tanggapan)) {
