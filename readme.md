@@ -196,19 +196,19 @@ $sql = "INSERT INTO admin(nama, username, password) VALUES ('$nama','$username',
 ```
 ### form.php
 ```php
-$sql = "INSERT INTO dataTamu (id, nama, jenis_kelamin, email, agama, tgl_lahir, alamat) VALUES ('', '$nama', '$jenis_kelamin', '$email', '$agama', '$tanggal_lahir', '$alamat')"; //tambah data
+$sql = "INSERT INTO datatamu (id, nama, jenis_kelamin, email, agama, tgl_lahir, alamat) VALUES ('', '$nama', '$jenis_kelamin', '$email', '$agama', '$tanggal_lahir', '$alamat')"; //tambah data
 ```
 ### edit.php
 ```php
-$sql = "UPDATE dataTamu SET nama='$nama', jenis_kelamin='$jenis_kelamin', email='$email', agama='$agama', tgl_lahir='$tanggal_lahir', alamat='$alamat' WHERE id='$id'"; //edit data
+$sql = "UPDATE datatamu SET nama='$nama', jenis_kelamin='$jenis_kelamin', email='$email', agama='$agama', tgl_lahir='$tanggal_lahir', alamat='$alamat' WHERE id='$id'"; //edit data
 ```
 ### delete.php
 ```php
-$sql = "DELETE FROM dataTamu WHERE id = '$id'"; //hapus data
+$sql = "DELETE FROM datatamu WHERE id = '$id'"; //hapus data
 ```
 ### tabel.php
 ```php
-$sql = "SELECT * FROM dataTamu ORDER BY id ASC"; //ambil data tamu dari database
+$sql = "SELECT * FROM datatamu ORDER BY id ASC"; //ambil data tamu dari database
 ```
 
 ### Bagian 4: State Management
